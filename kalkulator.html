@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<title>warhammer Pomocnik Gracza i MG</title>
+	
+	<meta name="description" content="Wygeneruj imię postaci, przelicz ile ZK będziesz musiał wydać na zakupach w mieście i inne opcje pomocnicze." />
+	<meta name="keywords" content="warhammer, kalkulator, złota korona, karczma, koszt zbroi, karczma, szylingi, pensy, generator, imion, postaci, wiedza, krasnoludy, niziołki, elfy" />
+	
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="calc.js"></script>
+	<script src="sortowanie.js"></script>
+		
+</head>
+
+<body onload="pop(); ara();">
+
+	<nav id="box1">
+	
+		<div class="rectangle1">
+		
+			<!--<div>
+			
+				<img src="komet.png" class="image"/>
+			
+			</div>-->
+			
+				<button class="button">
+				
+				<a href="imiona.html" class="link">
+				Generator 
+				postaci 
+				</a>
+				</button>
+			
+		
+		</div>
+		<div class="rectangle1" id="midButton">
+		
+			<!--<div>
+			
+				<img src="nioch.png" class="image"/>
+			
+			</div>-->
+			
+				<button class="button">
+				
+				<a href="index.html" class="link">
+				Strona 
+				główna 
+				</a>
+				</button>
+			
+		
+		</div>
+		
+		<div class="rectangle1" id="LowerButton">
+		
+			<!--<div>
+		
+				<img src="coins.png" class="image" />
+			
+			</div>-->
+		<button class="button">
+		
+		<a href="kalkulator.html" class="link">
+		Wszyscy
+		handlarze
+		</a>
+		
+		</button>
+		
+
+	</div>
+
+	</nav>
+	
+	<article id="box2">
+		 
+		<div >Twoje zakupy w naszej Karczmie:
+		</div>
+		<div class="roll"><div style="height: 1px;"></div>
+				<div class="rollk" id="rock">
+					W tym miejscu pojawi się opis wybranego przedmiotu niżej. </br></br>
+					Nazwy oraz przedmioty są z podręcznika do 4e Warhammer.
+				</div>
+					
+		</div>
+	
+		<div style="margin-top: 10px;">Wyszukiwarka: <input id="input" placeholder="Wpisz szukany przedmiot" />
+		</div>
+		<div class="roll" id="kurka"><div style="height: 10px;"></div>
+			<table class="rollk" id="pop">
+			</table>
+		</div>
+
+		
+	
+	</article>
+	
+	<footer id="footer">
+	2020 &copy; Sebastian Kacperski - Pmocnik Gracza w RPG
+	</footer>
+
+
+
+
+</body>
+</html>
