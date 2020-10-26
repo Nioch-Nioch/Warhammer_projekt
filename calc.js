@@ -1,3 +1,4 @@
+/*Test repozytorium*/
 var tabB = new Array(46);
 /*bronie*/ tabB[0]= "CELNA: Strzelając z tej broni, łatwo trafić w cel. W takiej sytuacji zyskujesz premię +10 do Testu trafienia."; 
 /*bronie*/ tabB[1]= "DEKONCENTRUJĄCA: Ze względu na swoją niebezpieczną naturę broń Dekoncentrująca może zmuszać wroga do cofania się. Zwykle działa podobnie jak bicz. Zamiast zadawać Obrażenia, udany atak bronią Dekoncentrującą może zmusić przeciwnika do cofnięcia się o 1 metr na każdy PS, o który wygrywasz Test Przeciwstawny."; 
