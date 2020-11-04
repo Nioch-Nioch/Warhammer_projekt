@@ -189,7 +189,7 @@ border-color: grey;
 }
 #P2
 {
-	grid-column: 52 / -1;
+	grid-column: 52 / 100;
 	grid-row: 63 / 96;
 
 }
