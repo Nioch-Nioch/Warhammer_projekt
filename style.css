@@ -89,20 +89,24 @@ grid-row: 3 / 10;
 {
 grid-row: 12 / 13;
 grid-column: 2 / 100;
+text-shadow: 2px 2px red;
+text-align: center;
 }
 #box1
 {
 grid-row: 15 / 45;
 grid-column: 2 / 100;
+
 }
 #wysz
 {
 grid-row: 47 / 49;
 grid-column: 2 / 100;
+text-shadow: 2px 2px red;
 }
 #box2
 {
-grid-row: 50 / 97;
+grid-row: 51 / 97;
 grid-column: 2 / 100;
 border-collapse: separate;
 box-sizing: none;
@@ -117,7 +121,7 @@ border-color: grey;
 	background-color:#9e9e9e;
 	box-shadow: 0px 0px 0px 2px #7c7c7c, 0px 0px 0px 4px #c11e02;
 	border-radius: 20px;
-	opacity: 0.8;
+	opacity: 0.9;
 
 }
 .rollk
@@ -142,6 +146,7 @@ border-color: grey;
 }
 #rap
 {
+	opacity: 1;
 	display: block;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -149,3 +154,132 @@ border-color: grey;
 	overflow: auto;
 	height: 100%;
 }
+#wysz
+{
+	margin-left:10%;
+}
+#input
+{
+	width:50%;
+}	
+#T2
+{
+	grid-column: 1 / -1;
+	grid-row: 11 / 17;
+}
+#pack1
+{
+	grid-column: 1 / 50;
+	grid-row: 18 / 54;
+}
+#change
+{
+	grid-column: 52 / -1;
+	grid-row: 18 / 54;
+}
+#T3
+{
+	grid-column: 1 / -1;
+	grid-row: 56 / 62;
+}
+#P1
+{	
+	grid-column: 1 / 50;
+	grid-row: 63 / 96;
+}
+#P2
+{
+	grid-column: 52 / -1;
+	grid-row: 63 / 96;
+
+}
+.selector:visited
+{
+	outline: none;
+}
+.selector
+{
+	outline: none;
+	opacity: 0.8;
+	margin-left:20px;
+	color: #030303;
+	background-color:#eeeeee;
+	padding:10px;
+	margin-top: 10px;
+	box-shadow: 0px 0px 0px 2px #9e9e9e, 0px 0px 0px 4px #c11e02;
+	border-radius: 20px;
+}
+.selector:hover
+{
+	background-color:#c11e02;
+}
+.hero
+{
+	text-align:right;
+	height:14%;
+	width:48%;
+	font-size:1.2rem;
+	clear: both;
+	margin-left: 2%;
+	
+}
+.hero2
+{
+	text-shadow: 2px 2px red;
+	text-align:left;
+	height:14%;
+	width:50%;
+	font-size:1.2rem;
+	float:left;	
+}
+.cechy
+{
+float: left;
+width: 8%;
+padding: 2px;
+border-style:solid;
+text-align: center;
+border-width: 2px;
+border-color:#363131;
+background-color: #550303;
+opacity: 0.8;
+font-size: 50%;
+}
+.cecha
+{
+float: left;
+width: 8%;
+text-align: center;
+padding: 2px;
+border-style: solid;
+border-width: 2px;
+border-color: #363131;
+background-color: #550303;
+opacity: 0.8;
+font-size: 50%;
+
+}
+#TabCech
+{
+	width: 95%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	margin-left: 5%;
+	
+}
+#info
+{
+	font-size: 0.8rem;
+	margin-bottom: 5%;
+}
+
+@media(max-width: 1024px){
+	html{
+		font-size:40px;
+	}
+}
+@media only screen and (orientation: landscape) {
+	html {
+	  font-size: 20px;
+	}
+  }
