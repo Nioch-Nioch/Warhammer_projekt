@@ -1,5 +1,6 @@
-Nie czytaj tego 
----
+# Nie czytaj tego 
+
+## opis
 Opis dla graczy
 
 Licencja
